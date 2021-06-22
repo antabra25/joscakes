@@ -1,0 +1,266 @@
+/*body {
+
+	background-color: #DFDBE5;
+background-image: url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%23ca1364' fill-opacity='0.3' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+*/
+
+/*body {
+
+background-color: #f2e1f4;
+background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23e13ad7' fill-opacity='0.27'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}}*/
+
+/*body {
+
+	background-color: #f2e1f4;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='77' height='107' viewBox='0 0 77 107'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='stamp-collection' fill='%23e13ad7' fill-opacity='0.27'%3E%3Cpath d='M46 101a5 5 0 0 1 5 5h5a5 5 0 0 1 10 0h5a5 5 0 0 1 5-5v-5a5 5 0 0 1 0-10v-5a5 5 0 0 1 0-10v-5a5 5 0 0 1 0-10v-5a5 5 0 0 1 0-10v-5a5 5 0 0 1 0-10v-5a5 5 0 0 1 0-10V6a5 5 0 0 1-5-5h-5a5 5 0 0 1-10 0h-5a5 5 0 0 1-10 0h-5a5 5 0 0 1-10 0h-5a5 5 0 0 1-10 0H6a5 5 0 0 1-5 5v5a5 5 0 0 1 0 10v5a5 5 0 0 1 0 10v5a5 5 0 0 1 0 10v5a5 5 0 0 1 0 10v5a5 5 0 0 1 0 10v5a5 5 0 0 1 0 10v5a5 5 0 0 1 5 5h5a5 5 0 0 1 10 0h5a5 5 0 0 1 10 0h5a5 5 0 0 1 5-5zm15-2a7 7 0 0 0-6.71 5h-1.58a7 7 0 0 0-13.42 0h-1.58a7 7 0 0 0-13.42 0h-1.58a7 7 0 0 0-13.42 0H7.71A7.01 7.01 0 0 0 3 99.29v-1.58a7 7 0 0 0 0-13.42v-1.58a7 7 0 0 0 0-13.42v-1.58a7 7 0 0 0 0-13.42v-1.58a7 7 0 0 0 0-13.42v-1.58a7 7 0 0 0 0-13.42v-1.58A7 7 0 0 0 3 9.29V7.71A7.02 7.02 0 0 0 7.71 3h1.58a7 7 0 0 0 13.42 0h1.58a7 7 0 0 0 13.42 0h1.58a7 7 0 0 0 13.42 0h1.58a7 7 0 0 0 13.42 0h1.58A7.02 7.02 0 0 0 74 7.71v1.58a7 7 0 0 0 0 13.42v1.58a7 7 0 0 0 0 13.42v1.58a7 7 0 0 0 0 13.42v1.58a7 7 0 0 0 0 13.42v1.58a7 7 0 0 0 0 13.42v1.58a7 7 0 0 0 0 13.42v1.58a7.01 7.01 0 0 0-4.71 4.71h-1.58A7 7 0 0 0 61 99zM12 12h53v83H12V12zm51 81H14V14h49v79z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}*/
+
+/* ----------------------------------------------------------------------------------*/
+
+:root {
+  --blanco: #faecec;
+  --marfil: #fbabac;
+  --verde-a: #53c0ab;
+  --amarillo-m: #f4a62d;
+  --rosa1: #d572c6;
+  --fucsia: #ea426e;
+  --rosa-p: #faaeb0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family:"Merienda", cursive; ;
+ 
+ }
+
+.container {
+  width: 100%;
+  background-color: var(--blanco);
+}
+
+#main {
+ 
+  background-color: var(--rosa1);
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  margin-top: 20px;
+  border: 1px groove black;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-brand {
+  width: 100px;
+  height: 100px;
+}
+
+#social {
+
+align-self: flex-end;  
+
+
+}
+
+.nav-main {
+  font-size: 17px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 60px;
+  padding: 20px 0;
+  font-family: "Lobster", cursive;
+  margin-top: 20px;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e13ad7' fill-opacity='0.20' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+
+}
+
+.nav-main ul {
+  display: flex;
+}
+
+.nav-main ul li {
+  padding: 10px;
+}
+
+.nav-main ul li a {
+  padding: 2px;
+  
+
+}
+
+figcaption {
+
+  width: 280px;
+  font-family: "Merienda", cursive;
+  background-color: var(--verde-a);
+}
+
+div > img:hover + figcaption {
+
+  display: none;
+}
+
+#main {
+
+  opacity: 0.95;
+  border-bottom-right-radius: 800px 500px;
+} 
+
+
+
+.nav-main li:hover {
+  font-size: 1.5rem;
+}
+
+a:active {
+  color: white;
+}
+
+.slider {
+  width: 100%;
+  height: 600px;
+  background: url("./img/celebracion.jpg") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: "Merienda", cursive;
+  font-size: 20px;
+}
+
+.cakes,
+.slices {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  margin:30px;
+  
+}
+
+.cakes img,
+.slices img {
+  height: 280px;
+  width: 280px;
+}
+
+.cakes div,
+.slices div {
+  border: 2px groove var(--blanco);
+  margin: 12px;
+}
+
+.cakes img:hover,
+.slices img:hover {
+  height: 350px;
+  width: 350px;
+}
+
+h2,
+h3 {
+  font-family: "Merienda", cursive;
+}
+
+h3 {
+
+   margin-left: 30px;
+}
+
+
+ h2 {
+  text-align: center;
+  font-size: 26px;
+}
+
+h2, p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: #262626;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #fff;
+}
+
+
+#contacto {
+
+  width: 100%;
+  background-color: var(--blanco);
+  height: 100vh;
+}
+
+
+#caja {
+
+
+  height: 300px;
+  width: 400px;
+  border: 1px solid var(--amarillo-m);
+  background-color: var(--marfil);
+  margin: auto;
+  padding: 40px;
+  box-shadow: 20px 10px 10px 2px lightgray;
+
+ 
+
+}
+
+#caja > p {
+
+  line-height: 30px;
+}
+
+#sobre-joscakes {
+
+  background-color: var(--amarillo-m);
+  opacity: 0.87;
+}
+
+footer {
+
+  background-color: rgb(46, 39, 38);
+  height: 40vh;
+}
+
+#sobre-joscakes {
+
+  margin: 50px;
+  padding: 30px;
+  height: 40vh;
+}
