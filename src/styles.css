@@ -56,30 +56,62 @@ a {
   text-decoration: none;
 }
 
-hr {
-  margin-top: 20px;
-  border: 1px groove black;
-}
+
 
 ul {
   list-style: none;
 }
 
-.nav-brand {
+#nav-brand {
+
   width: 100px;
   height: 100px;
+
+
 }
 
+.brand {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-star
+}
+
+.nav-menu {
+
+
+
+}
+
+
+/* Iconos Redes Sociales */
 #social {
 
-align-self: flex-end;  
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: flex-end;
+align-items: center;
+background-color: var(--blanco);
+padding-right: 10px;
+padding-top: 10px;
 
 
 }
+
+#social  a {
+text-decoration: none;
+color: var(--fucsia);
+
+
+}
+
+
 
 .nav-main {
   font-size: 17px;
   display: flex;
+  flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: center;
   height: 60px;
@@ -92,15 +124,27 @@ align-self: flex-end;
 
 .nav-main ul {
   display: flex;
+  margin-left: 20px;
+
+ 
 }
 
 .nav-main ul li {
   padding: 10px;
+  
 }
 
 .nav-main ul li a {
   padding: 2px;
+  color:var(--fucsia);
   
+  
+
+}
+
+.nav-main ul li a:hover {
+
+color:var(--verde-a) ;
 
 }
 
@@ -119,7 +163,7 @@ div > img:hover + figcaption {
 #main {
 
   opacity: 0.95;
-  border-bottom-right-radius: 800px 500px;
+  
 } 
 
 
@@ -131,6 +175,8 @@ div > img:hover + figcaption {
 a:active {
   color: white;
 }
+
+/* Header */
 
 .slider {
   width: 100%;
@@ -149,6 +195,8 @@ a:active {
   font-size: 20px;
 }
 
+/* Dentro class main---> Clases galerias */
+
 .cakes,
 .slices {
   display: flex;
@@ -163,8 +211,9 @@ a:active {
 
 .cakes img,
 .slices img {
-  height: 280px;
+  height: auto;
   width: 280px;
+  text-align: center;
 }
 
 .cakes div,
@@ -262,5 +311,123 @@ footer {
 
   margin: 50px;
   padding: 30px;
-  height: 40vh;
+  
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:340px) {
+
+
+
+
+  .nav-main {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+  padding: 6px 0;
+  font-family: "Lobster", cursive;
+  margin-top: 10px;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e13ad7' fill-opacity='0.20' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+
+}
+
+
+.cakes,
+.slices {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+
+  
+}
+
+.cakes img,
+.slices img{
+
+  height: auto;
+  width: 250px;
+  padding: 0px;
+
+}
+
+figcaption {
+
+  width: 250px;
+}
+
+
+.cakes img:hover,
+.slices img:hover {
+
+
+height: auto;
+  width: 250px;
+  
+}
+
+ 
+
+
+ #contacto {
+
+  width: 100%;
+  background-color: var(--blanco);
+  height: auto;
+  margin: 0;
+  
+
+}
+
+#contacto p {
+
+  text-align: justify;
+  font-size: 12px;
+}
+
+
+#caja {
+
+
+  height:auto;
+  width: 100%;
+  background-color: var(--marfil);
+  margin: auto;
+  padding: 40px;
+  box-shadow: 0 0 10px 2px lightgray;
+
+ 
+
+}
+
+#sobre-joscakes {
+
+  
+  
+  width: 100%;
+  height: auto;
+  margin: 0;
+  
+}
+
+#sobre-joscakes p {
+
+  
+  padding: 10px;
+  text-align: justify;
+  font-size: 12px;
+}
+
 }
